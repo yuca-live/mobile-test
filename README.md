@@ -105,6 +105,12 @@ Caso o status seja "paid" o header do card deverá ser assim:
 ## Links para possibilitar o desafio
 A api para realizar a consulta é essa: https://private-42e99d-yuca1.apiary-mock.com/payments
 
+Curl de exemplo:
+
+```
+curl -X GET https://private-42e99d-yuca1.apiary-mock.com/payments
+```
+
 Link do layout a ser seguido com todas as especificações: https://www.figma.com/file/1oXD7jMfBpgPEiVXDW9eV9/Teste-Tech---Dev.-Mobile
 
 ## Conclusão
