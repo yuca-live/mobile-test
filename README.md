@@ -3,6 +3,7 @@
 Linguagem: Flutter
 
 Neste desafio vamos avaliar:
+
     - Como você desenvolve
     - Como você resolve problemas
     - Boas práticas de desenvolvimento
@@ -10,10 +11,13 @@ Neste desafio vamos avaliar:
     - Habilidade de seguir um layout
 
 Serão considerados bônus:
-- Teste unitário.
-- Teste de UI.
 
-O objetivo desse desafio é criar um aplicativo de pagamentos.A api e o link para o layout estão disponíveis abaixo.
+    - Teste unitário.
+    - Teste de UI.
+
+O objetivo desse desafio é criar um aplicativo de pagamentos.
+
+A api e o link para o layout estão disponíveis abaixo.
 
 ### 1 - Tela inicial
 Exemplo de retorno da api:
@@ -45,29 +49,57 @@ Exemplo de retorno da api:
 
 Interface:
 
+![](images/tela_pagamentos.png)
 
 Na tela inicial deverá ser consultado uma api com todos os pagamentos e exibi-los em uma listagem em cards.
 
 Requisitos:
-- Enquanto aguarda o retorno do api deverá exibir um loading a sua escolha
+
+- Deverá ser exibido a listagem de pagamentos retornada pela api.
+
+- Enquanto aguarda o retorno do api deverá exibir um loading a sua escolha.
+
 - Dependendo do status do pagamento o formato do card muda.
-Caso o status seja "aberto" o layout do card deverá ser assim:
-Caso o status seja "fechado" o layout do card deverá ser assim:
-Caso o status seja "pago" o layout do card deverá ser assim:
+
+Caso o status seja "open" o layout do card deverá ser assim:
+
+![](images/mensalidade_aberta.png)
+
+Caso o status seja "closed" o layout do card deverá ser assim:
+
+![](images/mensalidade_fechada.png)
+
+Caso o status seja "paid" o layout do card deverá ser assim:
+
+![](images/mensalidade_paga.png)
+
 - As datas deverão ser formatadas para o formato igual do layout.
+
 - Quando clicado em ver detalhes deverá navegar para a próxima interface de detalhes de pagamentos
 
 ### 2 - Detalhes de pagamentos
 
 Interface:
+![](images/tela_detalhes_pagamento.png)
 
 Nesta interface será exibido os detalhes do pagamento selecionado e a listagem de lançamentos.
 
 Requisitos:
+
 - Dependendo do status do pagamento selecionado o header do card muda.
-Caso o status seja "aberto" o header do card deverá ser assim:
-Caso o status seja "fechado" o header do card deverá ser assim:
-Caso o status seja "pago" o header do card deverá ser assim:
+
+Caso o status seja "open" o header do card deverá ser assim:
+
+![](images/detalhe_aberto.png)
+
+Caso o status seja "closed" o header do card deverá ser assim:
+
+![](images/detalhe_fechado.png)
+
+Caso o status seja "paid" o header do card deverá ser assim:
+
+![](images/detalhe_pago.png)
+
 - As datas deverão ser formatadas para o formato igual do layout.
 
 ## Links para possibilitar o desafio
@@ -78,6 +110,9 @@ Link do layout a ser seguido com todas as especificações: https://www.figma.co
 ## Conclusão
 
 Crie um Fork desse repositório e envie um pull request.
+
 Caso seu projeto possua alguma pré condição para ser executado, crie um arquivo README.md com um passo a passo para que seja possível executá-lo.
+
 Lembre-se que iremos executar em diferentes devices e no Android e IOS.
+
 Qualquer dúvida pode entrar em contato com a gente =)
