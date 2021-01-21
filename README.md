@@ -115,7 +115,7 @@ Link do layout a ser seguido com todas as especificações: https://www.figma.co
 
 ## Conclusão
 
-Crie um Fork desse repositório e envie um pull request.
+Crie um repositório privado e compartilhe com a gente.
 
 Caso seu projeto possua alguma pré condição para ser executado, crie um arquivo README.md com um passo a passo para que seja possível executá-lo.
 
